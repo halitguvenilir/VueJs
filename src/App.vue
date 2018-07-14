@@ -20,8 +20,8 @@ export default {
     name: 'app',
     data() {
         return {
-            title: 'Hello Darth Vader',
-            initial_ids: [1]
+            title: 'Starwars Characters',
+            initial_ids: [1, 13, 15, 17]
         }
     },
     components: {
@@ -35,5 +35,9 @@ export default {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+h3 {
+    margin-bottom: 30px;
 }
 </style>
